@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GmailLogin,,,,2019-05-14 17:39:51,2019-05-14 17:39:52,1.393s,FAILED
+,,,,,,,
+Test Cases/TC_gmail_login,,,,2019-05-14 17:39:51,2019-05-14 17:39:52,0.773s,FAILED
+runWithCucumberRunner(gmail_Login_Runner),,,,2019-05-14 17:39:51,2019-05-14 17:39:52,0.301s,FAILED
+Start listener action : AfterScenario,,,,2019-05-14 17:39:52,2019-05-14 17:39:52,0.134s,PASSED

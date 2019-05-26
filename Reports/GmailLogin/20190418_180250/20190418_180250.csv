@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+GmailLogin,Chrome 69.0.3497.100,,2019-04-18 18:02:54,2019-04-18 18:04:06,1m - 12.022s,FAILED
+,,,,,,
+Test Cases/TC_gmail_login,Chrome 69.0.3497.100,,2019-04-18 18:02:55,2019-04-18 18:04:03,1m - 8.334s,FAILED
+runWithCucumberRunner(gmail_Login_Runner),Chrome 69.0.3497.100,,2019-04-18 18:02:55,2019-04-18 18:04:03,1m - 7.891s,FAILED

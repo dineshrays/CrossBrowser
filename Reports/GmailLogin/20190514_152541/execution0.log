@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-14T15:25:49</date>
+  <millis>1557827749446</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/GmailLogin</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">GmailLogin</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/GmailLogin</property>
+</record>
+<record>
+  <date>2019-05-14T15:25:49</date>
+  <millis>1557827749474</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Group10 - G10PROLT020</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Group10 - G10PROLT020</property>
+</record>
+<record>
+  <date>2019-05-14T15:25:49</date>
+  <millis>1557827749505</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-05-14T15:25:49</date>
+  <millis>1557827749506</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.26</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.1.26</property>
+</record>
+<record>
+  <date>2019-05-14T15:25:49</date>
+  <millis>1557827749516</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.4.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.4.1</property>
+</record>
+<record>
+  <date>2019-05-14T15:25:49</date>
+  <millis>1557827749798</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC_gmail_login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC_gmail_login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TC_gmail_login</property>
+  <property name="source">G:\\Katalon Repository\\gmail_login\\Test Cases\\TC_gmail_login.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-14T15:25:50</date>
+  <millis>1557827750006</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runWithCucumberRunner(gmail_Login_Runner)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>

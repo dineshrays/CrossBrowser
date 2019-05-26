@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GmailLogin,Firefox 67.0,,,2019-05-16 16:13:06,2019-05-16 16:13:23,17.482s,INCOMPLETE
+,,,,,,,
+Test Cases/TC_gmail_login,Firefox 67.0,,,2019-05-16 16:13:07,2019-05-16 16:13:23,16.264s,FAILED
+runWithCucumberRunner(gmail_Login_Runner),Firefox 67.0,,,2019-05-16 16:13:07,2019-05-16 16:13:23,15.833s,FAILED
+Start listener action : AfterScenario,Firefox 67.0,,,2019-05-16 16:13:23,2019-05-16 16:13:23,0.036s,PASSED

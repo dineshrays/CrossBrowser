@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GmailLogin,Chrome 74.0.3729.131,,,2019-05-14 17:49:22,2019-05-14 17:49:56,34.171s,PASSED
+,,,,,,,
+Test Cases/TC_gmail_login,Chrome 74.0.3729.131,,,2019-05-14 17:49:23,2019-05-14 17:49:56,32.496s,PASSED
+runWithCucumberRunner(gmail_Login_Runner),Chrome 74.0.3729.131,,,2019-05-14 17:49:24,2019-05-14 17:49:56,31.942s,PASSED
+println(userName),Chrome 74.0.3729.131,,,2019-05-14 17:49:56,2019-05-14 17:49:56,0.003s,PASSED
+Start listener action : AfterScenario,Chrome 74.0.3729.131,,,2019-05-14 17:49:56,2019-05-14 17:49:56,0.021s,PASSED

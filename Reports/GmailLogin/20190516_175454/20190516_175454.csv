@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+GmailLogin,Firefox 67.0,,,2019-05-16 17:55:00,2019-05-16 17:56:14,1m - 14.700s,INCOMPLETE
+,,,,,,,
+Test Cases/TC_gmail_login,Firefox 67.0,,,2019-05-16 17:55:00,2019-05-16 17:56:14,1m - 13.992s,PASSED
+runWithCucumberRunner(gmail_Login_Runner),Firefox 67.0,,,2019-05-16 17:55:01,2019-05-16 17:55:38,37.170s,PASSED
+profile_name = getExecutionProfile(),Firefox 67.0,,,2019-05-16 17:55:38,2019-05-16 17:55:38,0.004s,PASSED
+switch (profile_name),Firefox 67.0,,,2019-05-16 17:55:38,2019-05-16 17:56:14,35.883s,PASSED
+Start listener action : AfterScenario,Firefox 67.0,,,2019-05-16 17:56:14,2019-05-16 17:56:14,0.027s,PASSED

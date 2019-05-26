@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="GmailLogin" time="51" tests="0" failures="1" errors="0">
+    <testsuite name="GmailLogin" tests="0" failures="1" errors="0" time="51" timestamp="2019-05-16 18:46:23" hostname="Group10 - G10PROLT020" id="Test Suites/GmailLogin">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Repository\\gmail_login\\Reports\\GmailLogin\\20190516_184618"/>
+            <property name="logFiles" value="G:\\Katalon Repository\\gmail_login\\Reports\\GmailLogin\\20190516_184618\\execution0.log"/>
+            <property name="attachments" value="G:\\Katalon Repository\\gmail_login\\Reports\\GmailLogin\\20190516_184618\\1558012618764.png"/>
+            <property name="hostName" value="Group10 - G10PROLT020"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Chrome 74.0.3729.131"/>
+            <property name="hostAddress" value="192.168.101.1"/>
+            <property name="sessionId" value="68fe0d15f0219a415a256495b57e46a2"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/TC_gmail_login" classname="Test Cases/TC_gmail_login" status="FAILED">
+            <failure type="FAILED" message="Test Cases/TC_gmail_login FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: These following reason:&#xA; [Unable to set text 'Abcd@123' of object 'Object Repository/Page_Sign in  Google accounts/input_password']&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)&#xD;&#xA;&#x9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)&#xD;&#xA;&#x9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#xD;&#xA;&#x9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)&#xD;&#xA;&#x9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)&#xD;&#xA;&#x9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)&#xD;&#xA;&#x9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)&#xD;&#xA;&#x9;at TC_gmail_login.run(TC_gmail_login:22)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1558012578453.run(TempTestSuite1558012578453.groovy:35)&#xD;&#xA;"/>
+            <system-out>2019-05-16 18:46:24 - [TEST_CASE][FAILED] - Test Cases/TC_gmail_login: Test Cases/TC_gmail_login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to set text 'Abcd@123' of object 'Object Repository/Page_Sign in  Google accounts/input_password']&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)&#xD;
+	at TC_gmail_login.run(TC_gmail_login:22)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1558012578453.run(TempTestSuite1558012578453.groovy:35)&#xD;
+&#xD;
+&#xD;
+2019-05-16 18:46:25 - [TEST_STEP][FAILED] - runWithCucumberRunner(gmail_Login_Runner): Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to set text 'Abcd@123' of object 'Object Repository/Page_Sign in  Google accounts/input_password']&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)&#xD;
+	at TC_gmail_login.run(TC_gmail_login:22)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1558012578453.run(TempTestSuite1558012578453.groovy:35)&#xD;
+)&#xD;
+&#xD;
+2019-05-16 18:46:27 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-05-16 18:46:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-05-16 18:46:32 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-05-16 18:46:34 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-05-16 18:46:40 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/ServiceLogin#identifier' successfully&#xD;
+&#xD;
+2019-05-16 18:46:46 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:46:54 - [MESSAGE][PASSED] - Text 'testkatalon108@gmail.com' is set on object 'Object Repository/Page_Sign in  Google accounts/input_userid'&#xD;
+&#xD;
+2019-05-16 18:46:56 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Google accounts/content_Next_username' is clicked on&#xD;
+&#xD;
+2019-05-16 18:46:58 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:46:59 - [MESSAGE][FAILED] - Unable to set text 'Abcd@123' of object 'Object Repository/Page_Sign in  Google accounts/input_password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Abcd@123' of object 'Object Repository/Page_Sign in  Google accounts/input_password'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)&#xD;
+	at gmailLoginStepDef.user_enters_password(gmailLoginStepDef.groovy:93)&#xD;
+	at cucumber.runtime.Utils$1.call(Utils.java:26)&#xD;
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#xD;
+	at cucumber.runtime.Utils.invoke(Utils.java:20)&#xD;
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)&#xD;
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#xD;
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)&#xD;
+	at cucumber.runner.TestStep.run(TestStep.java:42)&#xD;
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)&#xD;
+	at cucumber.runner.TestCase.run(TestCase.java:47)&#xD;
+	at cucumber.runner.Runner.runPickle(Runner.java:44)&#xD;
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)&#xD;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#xD;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#xD;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#xD;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#xD;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#xD;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#xD;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#xD;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#xD;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)&#xD;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)&#xD;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)&#xD;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#xD;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#xD;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#xD;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#xD;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#xD;
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)&#xD;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#xD;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#xD;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#xD;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#xD;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#xD;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#xD;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#xD;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#xD;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#xD;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#xD;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#xD;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)&#xD;
+	at TC_gmail_login.run(TC_gmail_login:22)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1558012578453.run(TempTestSuite1558012578453.groovy:35)&#xD;
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'G10PROLT020', ip: '192.168.101.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\Group10\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56907}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 68fe0d15f0219a415a256495b57e46a2&#xD;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#xD;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#xD;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#xD;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#xD;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)&#xD;
+	at gmailLoginStepDef.user_enters_password(gmailLoginStepDef.groovy:93)&#xD;
+	at cucumber.runtime.Utils$1.call(Utils.java:26)&#xD;
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#xD;
+	at cucumber.runtime.Utils.invoke(Utils.java:20)&#xD;
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)&#xD;
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#xD;
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)&#xD;
+	at cucumber.runner.TestStep.run(TestStep.java:42)&#xD;
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)&#xD;
+	at cucumber.runner.TestCase.run(TestCase.java:47)&#xD;
+	at cucumber.runner.Runner.runPickle(Runner.java:44)&#xD;
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)&#xD;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#xD;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#xD;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#xD;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#xD;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#xD;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#xD;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#xD;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#xD;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)&#xD;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:98)&#xD;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)&#xD;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#xD;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#xD;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#xD;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#xD;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#xD;
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:107)&#xD;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#xD;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#xD;
+	at org.junit.runners.Suite.runChild(Suite.java:27)&#xD;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#xD;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#xD;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#xD;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#xD;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#xD;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#xD;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#xD;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)&#xD;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:105)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:260)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)&#xD;
+	at Script1555587834340.run(Script1555587834340.groovy:22)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|G:\\Katalon Repository\\gmail_login\\Reports\\GmailLogin\\20190516_184618\\1558012618764.png]]&#xD;
+&#xD;
+2019-05-16 18:46:59 - [MESSAGE][FAILED] - These following reason:
+ [Unable to set text 'Abcd@123' of object 'Object Repository/Page_Sign in  Google accounts/input_password']&#xD;
+&#xD;
+2019-05-16 18:46:59 - [MESSAGE][FAILED] - Keyword runWithCucumberRunner was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to set text 'Abcd@123' of object 'Object Repository/Page_Sign in  Google accounts/input_password']&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)&#xD;
+	at TC_gmail_login.run(TC_gmail_login:22)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1558012578453.run(TempTestSuite1558012578453.groovy:35)&#xD;
+)&#xD;
+&#xD;
+2019-05-16 18:46:59 - [TEST_STEP][PASSED] - Start listener action : AfterScenario: null&#xD;
+&#xD;
+2019-05-16 18:46:59 - [TEST_STEP][PASSED] - srt = context.getTestCaseVariables(): null&#xD;
+&#xD;
+2019-05-16 18:46:59 - [TEST_STEP][PASSED] - println(srt.get("userName")): null&#xD;
+&#xD;
+2019-05-16 18:46:59 - [TEST_STEP][PASSED] - println("The above is variable name"): null&#xD;
+&#xD;
+2019-05-16 18:46:59 - [TEST_STEP][PASSED] - println(userName): null&#xD;
+&#xD;
+2019-05-16 18:46:59 - [TEST_STEP][PASSED] - println("###########################" + context.getTestCaseId()): null&#xD;
+&#xD;
+2019-05-16 18:46:59 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:14 - [MESSAGE][PASSED] - Delayed 15 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:14 - [TEST_STEP][PASSED] - tsName = context.getTestCaseId(): null&#xD;
+&#xD;
+2019-05-16 18:47:14 - [TEST_STEP][PASSED] - start = tsName.lastIndexOf("/"): null&#xD;
+&#xD;
+2019-05-16 18:47:14 - [TEST_STEP][PASSED] - ReportName = tsName.substring(start + 1): null&#xD;
+&#xD;
+2019-05-16 18:47:14 - [TEST_STEP][PASSED] - println("Report Name :" + ReportName): null&#xD;
+&#xD;
+2019-05-16 18:47:14 - [TEST_STEP][PASSED] - projectKeywords().Jsonfieldcontext(ReportName, userName): null</system-out>
+            <system-err>2019-05-16 18:46:24 - [TEST_CASE][FAILED] - Test Cases/TC_gmail_login: Test Cases/TC_gmail_login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: These following reason:
+ [Unable to set text 'Abcd@123' of object 'Object Repository/Page_Sign in  Google accounts/input_password']&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy:272)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runWithCucumberRunner_closure3.doCall(CucumberBuiltinKeywords.groovy)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:257)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner$0.callStatic(Unknown Source)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runWithCucumberRunner(CucumberBuiltinKeywords.groovy:357)&#xD;
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runWithCucumberRunner.call(Unknown Source)&#xD;
+	at TC_gmail_login.run(TC_gmail_login:22)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1558012578453.run(TempTestSuite1558012578453.groovy:35)</system-err>
+        </testcase>
+        <system-out>2019-05-16 18:46:23 - [TEST_SUITE][INCOMPLETE] - GmailLogin: null</system-out>
+        <system-err>2019-05-16 18:46:23 - [TEST_SUITE][INCOMPLETE] - GmailLogin: null</system-err>
+    </testsuite>
+</testsuites>

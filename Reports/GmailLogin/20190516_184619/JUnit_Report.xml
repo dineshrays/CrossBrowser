@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="GmailLogin" time="102" tests="1" failures="0" errors="0">
+    <testsuite name="GmailLogin" tests="1" failures="0" errors="0" time="102" timestamp="2019-05-16 18:46:24" hostname="Group10 - G10PROLT020" id="Test Suites/GmailLogin">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Repository\\gmail_login\\Reports\\GmailLogin\\20190516_184619"/>
+            <property name="logFiles" value="G:\\Katalon Repository\\gmail_login\\Reports\\GmailLogin\\20190516_184619\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Group10 - G10PROLT020"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.1.5.3"/>
+            <property name="browser" value="Firefox 67.0"/>
+            <property name="hostAddress" value="192.168.101.1"/>
+            <property name="sessionId" value="4ea09485-f030-4a08-af3e-d044a3c6b8ec"/>
+            <property name="seleniumVersion" value="3.7.1"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/TC_gmail_login" classname="Test Cases/TC_gmail_login" status="PASSED">
+            <system-out>2019-05-16 18:46:25 - [TEST_CASE][PASSED] - Test Cases/TC_gmail_login: Test Cases/TC_gmail_login&#xD;
+&#xD;
+2019-05-16 18:46:26 - [TEST_STEP][PASSED] - runWithCucumberRunner(gmail_Login_Runner): Run with 'gmail_Login_Runner' was passed&#xD;
+&#xD;
+2019-05-16 18:46:27 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-05-16 18:46:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-05-16 18:46:44 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-05-16 18:46:44 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-05-16 18:46:50 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/ServiceLogin#identifier' successfully&#xD;
+&#xD;
+2019-05-16 18:46:56 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:46:56 - [MESSAGE][PASSED] - Text 'testerkatalon109@gmail.com' is set on object 'Object Repository/Page_Sign in  Google accounts/input_userid'&#xD;
+&#xD;
+2019-05-16 18:46:58 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:46:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Google accounts/content_Next_username' is clicked on&#xD;
+&#xD;
+2019-05-16 18:47:00 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:00 - [MESSAGE][PASSED] - Text 'Abcd@1234' is set on object 'Object Repository/Page_Sign in  Google accounts/input_password'&#xD;
+&#xD;
+2019-05-16 18:47:02 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Google accounts/content_Next' is clicked on&#xD;
+&#xD;
+2019-05-16 18:47:16 - [MESSAGE][PASSED] - Delayed 8 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:16 - [MESSAGE][PASSED] - Run with 'gmail_Login_Runner' was passed&#xD;
+&#xD;
+2019-05-16 18:47:16 - [TEST_STEP][PASSED] - profile_name = getExecutionProfile(): null&#xD;
+&#xD;
+2019-05-16 18:47:16 - [TEST_STEP][PASSED] - switch (profile_name): null&#xD;
+&#xD;
+2019-05-16 18:47:16 - [TEST_STEP][PASSED] - case "TesterDev":: null&#xD;
+&#xD;
+2019-05-16 18:47:16 - [TEST_STEP][PASSED] - runWithCucumberRunner(gmail_Login_Runner1): Run with 'gmail_Login_Runner1' was passed&#xD;
+&#xD;
+2019-05-16 18:47:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one&#xD;
+&#xD;
+2019-05-16 18:47:19 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-05-16 18:47:26 - [MESSAGE][PASSED] - Browser is opened with url: ''&#xD;
+&#xD;
+2019-05-16 18:47:26 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-05-16 18:47:29 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/ServiceLogin#identifier' successfully&#xD;
+&#xD;
+2019-05-16 18:47:31 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:31 - [MESSAGE][PASSED] - Text 'testerkatalon109@gmail.com' is set on object 'Object Repository/Page_Sign in  Google accounts/input_userid'&#xD;
+&#xD;
+2019-05-16 18:47:33 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Google accounts/content_Next_username' is clicked on&#xD;
+&#xD;
+2019-05-16 18:47:36 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:36 - [MESSAGE][PASSED] - Text 'Abcd@1234' is set on object 'Object Repository/Page_Sign in  Google accounts/input_password'&#xD;
+&#xD;
+2019-05-16 18:47:38 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in  Google accounts/content_Next' is clicked on&#xD;
+&#xD;
+2019-05-16 18:47:51 - [MESSAGE][PASSED] - Delayed 8 second(s)&#xD;
+&#xD;
+2019-05-16 18:47:51 - [MESSAGE][PASSED] - Run with 'gmail_Login_Runner1' was passed&#xD;
+&#xD;
+2019-05-16 18:47:51 - [TEST_STEP][PASSED] - println("I entetered in TesterDev switch case"): null&#xD;
+&#xD;
+2019-05-16 18:47:51 - [TEST_STEP][PASSED] - break: null&#xD;
+&#xD;
+2019-05-16 18:47:51 - [TEST_STEP][ERROR] - Start listener action : AfterScenario: org.codehaus.groovy.runtime.InvokerInvocationException: Unexpected character (d) at position 3420.&#xD;
+&#xD;
+2019-05-16 18:47:51 - [TEST_STEP][PASSED] - srt = context.getTestCaseVariables(): null&#xD;
+&#xD;
+2019-05-16 18:47:51 - [TEST_STEP][PASSED] - println(srt.get("userName")): null&#xD;
+&#xD;
+2019-05-16 18:47:51 - [TEST_STEP][PASSED] - println("The above is variable name"): null&#xD;
+&#xD;
+2019-05-16 18:47:51 - [TEST_STEP][PASSED] - println(userName): null&#xD;
+&#xD;
+2019-05-16 18:47:51 - [TEST_STEP][PASSED] - println("###########################" + context.getTestCaseId()): null&#xD;
+&#xD;
+2019-05-16 18:47:51 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)&#xD;
+&#xD;
+2019-05-16 18:48:06 - [MESSAGE][PASSED] - Delayed 15 second(s)&#xD;
+&#xD;
+2019-05-16 18:48:06 - [TEST_STEP][PASSED] - tsName = context.getTestCaseId(): null&#xD;
+&#xD;
+2019-05-16 18:48:06 - [TEST_STEP][PASSED] - start = tsName.lastIndexOf("/"): null&#xD;
+&#xD;
+2019-05-16 18:48:06 - [TEST_STEP][PASSED] - ReportName = tsName.substring(start + 1): null&#xD;
+&#xD;
+2019-05-16 18:48:06 - [TEST_STEP][PASSED] - println("Report Name :" + ReportName): null&#xD;
+&#xD;
+2019-05-16 18:48:06 - [TEST_STEP][ERROR] - projectKeywords().Jsonfieldcontext(ReportName, userName): org.codehaus.groovy.runtime.InvokerInvocationException: Unexpected character (d) at position 3420.&#xD;
+&#xD;
+2019-05-16 18:48:06 - [MESSAGE][ERROR] - org.codehaus.groovy.runtime.InvokerInvocationException: Unexpected character (d) at position 3420.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-05-16 18:46:24 - [TEST_SUITE][INCOMPLETE] - GmailLogin: null</system-out>
+        <system-err>2019-05-16 18:46:24 - [TEST_SUITE][INCOMPLETE] - GmailLogin: null</system-err>
+    </testsuite>
+</testsuites>

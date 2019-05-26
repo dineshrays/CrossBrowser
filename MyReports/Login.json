@@ -1,0 +1,137 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 142348,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NewTestListener.Sample()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Login To gmail Account -->Devtestertestkatalon108@gmail.com",
+        "description": "",
+        "id": "gmail-login;login-to-gmail-account",
+        "after": [
+          {
+            "result": {
+              "duration": 270725,
+              "status": "passed"
+            },
+            "match": {
+              "location": "NewTestListener.Afterscen()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10972051860,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should be on gmail login Page",
+            "match": {
+              "location": "gmailLoginStepDef.user_should_be_on_gmail_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2377591572,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters Email Id",
+            "match": {
+              "location": "gmailLoginStepDef.user_enters_Email_Id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2732203587,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks Next",
+            "match": {
+              "location": "gmailLoginStepDef.user_clicks_Next()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2256986657,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters password",
+            "match": {
+              "location": "gmailLoginStepDef.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2292767708,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks Next Button",
+            "match": {
+              "location": "gmailLoginStepDef.user_clicks_Next_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8005419793,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should be logged in to the gmail account",
+            "match": {
+              "location": "gmailLoginStepDef.user_should_be_logged_in_to_the_gmail_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          },
+          {
+            "name": "@Hoks"
+          }
+        ]
+      }
+    ],
+    "name": "Gmail Login",
+    "description": "",
+    "id": "gmail-login",
+    "keyword": "Feature",
+    "uri": "Include/features/gmail_Login.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
